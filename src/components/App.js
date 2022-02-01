@@ -16,7 +16,7 @@ const App = () => {
       </h1>
       <button
         className="increment-button"
-        onClick={() => {
+        onDoubleClick={() => {
           setCount(count + 1);
         }}
       >
